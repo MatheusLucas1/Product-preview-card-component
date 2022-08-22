@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color: hsl(228, 12%, 48%);
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: Montserrat;
+}
+h1{
+    font-family: Fraunces;
+}
+h4{
+    font-family: Fraunces;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+table{
+    margin-top: 10%;
+    margin-bottom: 5px;
+    table-layout: auto;
+    text-align: center;
+    vertical-align:middle;
+    width: 40%;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 5%;
+
+}
+
+.texto{
+    background-color: white;
+    text-align: left;
+    width: 300px;
+    padding: 0 50px 0 50px ;
+   
+}
+.imagem {
+    width: 400px;
+    height: max-content;
+    border-radius: 5% 0 0 5%;
+  }
+
+.title{
+    color: hsl(212, 21%, 14%);
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+}
+
+.botao{
+
+        background:hsl(158, 36%, 37%);
+        background-color:hsl(158, 36%, 37%);
+        border-radius:8px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Montserrat;
+        font-size:14px;
+        padding:13px 60px;
+        text-decoration:none;
+}
+
+.prices{
+    
+   vertical-align: middle;
+}
